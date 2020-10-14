@@ -11,8 +11,8 @@ services:
     environment:
      - ZEPPELIN_JAVA_OPTS=-Dcassandra.hosts=cassandra
     volumes:
-    - ./data:/usr/zeppelin/data
-    - ./notebooks:/usr/zeppelin/notebook  
+    - ./data:/zeppelin/data
+    - ./notebooks:/zeppelin/notebook  
     links: 
     - cassandra
     depends_on: 
@@ -53,5 +53,3 @@ services:
     - ./mqtt/pwfile:/etc/mosquitto/pwfile
     - ./mqtt:/var/lib/mosquitto
     restart: always
-
-
