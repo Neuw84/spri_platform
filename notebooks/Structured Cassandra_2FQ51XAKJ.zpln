@@ -1,20 +1,21 @@
 {
   "paragraphs": [
     {
-      "text": "%md\n\n# Apache Zeppelin + Apache Spark + Apache Cassandra\n\nDepedencies\n\n* ```com.datastax.spark:spark-cassandra-connector_2.11:2.0.3```\n* ```org.apache.spark:spark-streaming-kafka-0-10_2.11:2.2.0```\n* ```org.apache.spark:spark-sql-kafka-0-10_2.11:2.2.0```\n\nSet ```spark.cassandra.connection.host``` to  your ```docker-machine-ip```\n\nUseful links:\n\n* [The Spark Cassandra Connector github repository](https://github.com/datastax/spark-cassandra-connector)\n* [Getting started with Apache Spark and Cassandra](https://academy.datastax.com/fr/demos/getting-started-apache-spark-and-cassandra)\n* [Free training on DataStax Enterprise Analytics with Apache Spark](https://academy.datastax.com/fr/courses/getting-started-apache-spark)\n",
+      "text": "%md\n\n# Apache Zeppelin + Apache Spark + Apache Cassandra\n\nDepedencies\n\n* ```com.datastax.spark:spark-cassandra-connector_2.11:2.5.0```\n* ```org.apache.spark:spark-streaming-kafka-0-10_2.11:2.4.7```\n* ```org.apache.spark:spark-sql-kafka-0-10_2.11:jar:2.4.7```\n\nSet ```spark.cassandra.connection.host``` to  your ```docker-machine-ip```\n\nUseful links:\n\n* [The Spark Cassandra Connector github repository](https://github.com/datastax/spark-cassandra-connector)\n* [Getting started with Apache Spark and Cassandra](https://academy.datastax.com/fr/demos/getting-started-apache-spark-and-cassandra)\n* [Free training on DataStax Enterprise Analytics with Apache Spark](https://academy.datastax.com/fr/courses/getting-started-apache-spark)\n",
       "user": "anonymous",
-      "dateUpdated": "2020-10-14 06:24:53.398",
+      "dateUpdated": "2020-10-16 06:38:19.316",
       "config": {
-        "tableHide": true,
+        "tableHide": false,
         "editorSetting": {
-          "language": "markdown",
-          "editOnDblClick": true
+          "language": "text",
+          "editOnDblClick": false
         },
         "colWidth": 12.0,
-        "editorMode": "ace/mode/markdown",
-        "editorHide": false,
+        "editorMode": "ace/mode/text",
+        "editorHide": true,
         "results": {},
-        "enabled": true
+        "enabled": true,
+        "fontSize": 9.0
       },
       "settings": {
         "params": {},
@@ -25,7 +26,7 @@
         "msg": [
           {
             "type": "HTML",
-            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch1\u003eApache Zeppelin + Apache Spark + Apache Cassandra\u003c/h1\u003e\n\u003cp\u003eDepedencies\u003c/p\u003e\n\u003cul\u003e\n  \u003cli\u003e\u003ccode\u003ecom.datastax.spark:spark-cassandra-connector_2.11:2.0.3\u003c/code\u003e\u003c/li\u003e\n  \u003cli\u003e\u003ccode\u003eorg.apache.spark:spark-streaming-kafka-0-10_2.11:2.2.0\u003c/code\u003e\u003c/li\u003e\n  \u003cli\u003e\u003ccode\u003eorg.apache.spark:spark-sql-kafka-0-10_2.11:2.2.0\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eSet \u003ccode\u003espark.cassandra.connection.host\u003c/code\u003e to your \u003ccode\u003edocker-machine-ip\u003c/code\u003e\u003c/p\u003e\n\u003cp\u003eUseful links:\u003c/p\u003e\n\u003cul\u003e\n  \u003cli\u003e\u003ca href\u003d\"https://github.com/datastax/spark-cassandra-connector\"\u003eThe Spark Cassandra Connector github repository\u003c/a\u003e\u003c/li\u003e\n  \u003cli\u003e\u003ca href\u003d\"https://academy.datastax.com/fr/demos/getting-started-apache-spark-and-cassandra\"\u003eGetting started with Apache Spark and Cassandra\u003c/a\u003e\u003c/li\u003e\n  \u003cli\u003e\u003ca href\u003d\"https://academy.datastax.com/fr/courses/getting-started-apache-spark\"\u003eFree training on DataStax Enterprise Analytics with Apache Spark\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e"
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch1\u003eApache Zeppelin + Apache Spark + Apache Cassandra\u003c/h1\u003e\n\u003cp\u003eDepedencies\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ccode\u003ecom.datastax.spark:spark-cassandra-connector_2.11:2.5.0\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003eorg.apache.spark:spark-streaming-kafka-0-10_2.11:2.4.7\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003eorg.apache.spark:spark-sql-kafka-0-10_2.11:jar:2.4.7\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eSet \u003ccode\u003espark.cassandra.connection.host\u003c/code\u003e to  your \u003ccode\u003edocker-machine-ip\u003c/code\u003e\u003c/p\u003e\n\u003cp\u003eUseful links:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href\u003d\"https://github.com/datastax/spark-cassandra-connector\"\u003eThe Spark Cassandra Connector github repository\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"https://academy.datastax.com/fr/demos/getting-started-apache-spark-and-cassandra\"\u003eGetting started with Apache Spark and Cassandra\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"https://academy.datastax.com/fr/courses/getting-started-apache-spark\"\u003eFree training on DataStax Enterprise Analytics with Apache Spark\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\n\u003c/div\u003e"
           }
         ]
       },
@@ -34,7 +35,9 @@
       "jobName": "paragraph_1602656693398_-2762448",
       "id": "20171110-145128_462818697",
       "dateCreated": "2020-10-14 06:24:53.398",
-      "status": "READY"
+      "dateStarted": "2020-10-16 06:38:18.421",
+      "dateFinished": "2020-10-16 06:38:18.439",
+      "status": "FINISHED"
     },
     {
       "title": "Cassandra CQL : Create keyspace and describe keyspaces",
