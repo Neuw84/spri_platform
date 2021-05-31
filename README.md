@@ -1,13 +1,11 @@
 
-# SPRI AI for Industry 4.0. 2020 course
+# Software reliability in the Big Data era with an industry‐minded focus
 
-Code for SPRI AI for Industry 4.0. 2020 course.
-
-This code has been updated to use latest versions of all the components on october 2020.
+This code has been updated to use latest versions of all the components on may 2021.
 
 ## Usage via WSL 2
 
-1. Install WSL 2 and install an Ubuntu 18.04 image.
+1. Install WSL 2 and install an Ubuntu 20.04 image.
 2. Install docker desktop and enable the WSL 2 backend (docker & docker-compose commands must be installed).
 3. ```git clone```
 4. ```docker-compose up```
